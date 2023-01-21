@@ -1,0 +1,49 @@
+.App {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    padding: 12px;
+}
+
+.quoteBox {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 700px;
+    position: relative;
+    box-shadow: 1px 1px 18px rgba(0, 0, 0, 0.752);
+}
+
+.quoteBox__author {
+    text-align: right;
+    margin: 15px 0;
+}
+
+.quoteBox__icon {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 55px;
+}
+
+.quoteBox__button {
+    font-size: 40px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0 auto;
+    cursor: pointer;
+    transition: transform 200mx ease;
+}
+
+.quoteBox__button:hover {
+    transform: scale(1.05);
+}
