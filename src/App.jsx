@@ -4,7 +4,7 @@ import QuoteBox from './components/QuoteBox';
 import db from "./db/quotes.json"
 
 
-const arrayColors = ["#ff5f7c", "#3f8880", "#ffa43a", "#759eff", "#ffa9e9", "#c8ad8d"]
+const arrayColors = ["#b31237", "#f03813", "#ff8826", "#ffb914", "#2c9fa3", "#c8ad8d"]
 
 const getRandom = (arrayElements) => {
   const quantityValues = arrayElements.length;
